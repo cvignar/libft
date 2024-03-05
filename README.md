@@ -24,6 +24,7 @@ Unix logic
   <li><b>ft_memset</b> fills the first specified number of bytes of the memory area pointed to by a pointer with the specified constant byte and returns the pointer</li>
   <li><b>ft_bzero</b> erases the data in the specicfied number of bytes of the memory starting at the location pointed to by a pointer, by writing zeros (bytes containing '\0') to that area</li>
   <li><b>ft_memcpy</b> copies specified number of bytes from the source memory area to the destination memory area (the memory areas must not overlap) and returns a pointer to the destination memory area</li>
+  <li><b>ft_memccpy</b> copies no more than specified number of bytes from the source memory area to the destination memory area, stopping when the specified character is found and returns a pointer to the next character in the destination memory area after the specified character, or NULL if is was not found in the first specified number of characters of the source memory area</li>
   <li><b>ft_memmove()</b> copies specified number of bytes from the source memory area to the destination memory area (the memory areas may overlap) and returns a pointer to the destination memory area</li>
   <li><b>ft_strlcpy()</b> copies up to specified number of characters from the NUL-terminated source string to the destination string, NUL-terminating the result</li>
   <li><b>ft_strlcat()</b> appends the NUL-terminated source string to the end of the destination string</li>
