@@ -42,4 +42,36 @@ Unix logic
 
 # Functions part 2
 
-in progress
+<ul>
+  <li>
+    <b>ft_substr()</b> allocates and returns a substring from the source string
+  </li>
+  <li>
+    <b>ft_strjoin()</b> allocates and returns a new string, which is the result of the concatenation of two given strings
+  </li>
+  <li>
+    <b>ft_strtrim()</b> allocates and returns a copy of the source string with the characters specified in set removed from the beginning and the end of the string
+  </li>
+  <li>
+    <b>ft_split()</b> allocates and returns a NULL-terminated array of strings obtained by splitting the source string using the specified character as a delimiter
+  </li>
+  <li>
+    <b>ft_itoa()</b> allocates and returns a string representing the integer received as an argument
+  </li>
+  <li>
+    <b>ft_strmapi()</b> applies the specified function to each character of the source string to create a new string
+resulting from successive applications of ’f’.
+  </li>
+  <li>
+    <b>ft_putchar_fd()</b> outputs the specified character to the given file descriptor.
+  </li>
+  <li>
+    <b>ft_putstr_fd()</b> outputs the specified string to the given file descriptor.
+  </li>
+  <li>
+    <b>ft_putendl_fd()</b> outputs the specified string to the given file descriptor, followed by a newline.
+  </li>
+  <li>
+    <b>ft_putnbr_fd()</b> outputs the specified integer to the given file descriptor.
+  </li>
+</ul>
